@@ -11,7 +11,7 @@ const wrapper = document.querySelector("wrapper"),
 window.onload = () => { // on window load
     function ajax() {
         let xhr = new XMLHttpRequest(); // creating new xml object
-        xhr.open("GET", "https://jsonplaceholder.typicode.com/posts", true); //sending get request to this URL
+        xhr.open("GET", "https://mogrady-git.github.io/The-AJAX-Project/", true); //sending get request to this URL
         xhr.onload = (event) => { // Once AJAX loaded
             // console.log(xhr.response); getting response of that get request  
             // console.log(event); //chk response
